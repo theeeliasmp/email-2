@@ -1,0 +1,28 @@
+<mjml>
+    <mj-head>
+        <mj-style>
+            *{
+                box-sizing: border-box;
+            }
+        </mj-style>
+        <mj-style inline="inline">
+            .header{
+                background-color: #004c3f;
+            }
+            .section-padding{
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body background-color="#f2f2f2">
+        <mj-raw>
+        <!-- Header -->
+        </mj-raw>
+        <mj-section css-class="header section-padding">
+            <mj-column>
+                <mj-image alt="shopify-logo" href="https//:shopify.com" width="121px" align="left" src="../email-2/images/logo.png">
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
