@@ -16,13 +16,18 @@
         </mj-style>
     </mj-head>
     <mj-body background-color="#f2f2f2">
+        <mj-include path="../email-2/components/header.mjml">
         <mj-raw>
-        <!-- Header -->
+            <!-- Main -->
         </mj-raw>
-        <mj-section css-class="header section-padding">
-            <mj-column>
-                <mj-image alt="shopify-logo" href="https//:shopify.com" width="121px" align="left" src="../email-2/images/logo.png">
+        <mj-section>
+            <mj-column padding="18px 0 5px 0">
+                <mj-text css-class="header-title" font-size="56px" color="#004c3f" font-weight="bold">What's New</mj-text>
+                <mj-text css-class="header-title" font-size="18px" color="#004c3f" font-weight="normal">July 18, 2028</mj-text>
             </mj-column>
         </mj-section>
+
+        <mj-include path="../email-2/components/spacer.mjml">
+        <mj-include path="../email-2/components/footer.mjml">
     </mj-body>
 </mjml>

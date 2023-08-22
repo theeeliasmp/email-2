@@ -1,0 +1,8 @@
+<mj-raw>
+            <!-- Spacer -->
+        </mj-raw>
+        <mj-section>
+            <mj-column>
+                <mj-image padding="0px" src="../email-2/images/3-lines.png">
+            </mj-column>
+        </mj-section>
