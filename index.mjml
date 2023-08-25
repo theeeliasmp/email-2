@@ -118,6 +118,13 @@
         
       </mj-group>
     </mj-section>
+    <mj-section padding="20px 0 0 0">
+        <mj-column padding="0">
+            <mj-text align="center" font-size="10px">
+            Shopify, 151 O'Conor Street, Ground floor, Ottawa ON, K2P 2L8
+            </mj-text>
+        </mj-column>
+    </mj-section>
     </mj-wrapper>
     <mj-include path="../email-2/components/footer.mjml" />
     </mj-section>
