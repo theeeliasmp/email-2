@@ -10,6 +10,9 @@
       }
     </mj-style>
     <mj-style inline="inline">
+    .content-bg {
+        background-color: #fff;
+    }
       .header {
         background-color: #004c3f;
       }
@@ -28,9 +31,18 @@
         text-decoration: none;
         color: #008060;
       }
+      .social-icons{
+        max-width: 280px;
+        padding: 40px 0 60px 0;
+      }
+      .footer{
+        background-image: url("../email-2/images/bg-colors.png");
+        background-size: 600px;
+      }
     </mj-style>
   </mj-head>
   <mj-body background-color="#f2f2f2">
+    <mj-wrapper padding="0" css-class="content-bg">
     <mj-include path="../email-2/components/header.mjml" />
     <mj-raw>
       <!-- Main -->
@@ -79,9 +91,9 @@
         </mj-column>
       </mj-group>
     </mj-section>
-    <mj-wrapper css-class="footer" background-color="#ffffff" padding="0 40px">
-        <mj-section padding="0" background-color="#ffffff">
-      <mj-group>
+    <mj-wrapper css-class="footer" padding="0 40px">
+        <mj-section padding="0">
+      <mj-group css-class="social-icons">
         <mj-column padding="0">
           <mj-image padding="0 5px" href="https://facebook.com/shopify" src="../email-2/images/fb.png" width="27px" height="27px" alt="Facebook" />
         </mj-column>
@@ -108,5 +120,6 @@
     </mj-section>
     </mj-wrapper>
     <mj-include path="../email-2/components/footer.mjml" />
+    </mj-wrapper>
   </mj-body>
 </mjml>
