@@ -42,12 +42,12 @@
     </mj-style>
   </mj-head>
   <mj-body background-color="#f2f2f2">
-    <mj-wrapper padding="0" css-class="content-bg">
+    <mj-section padding="0" css-class="content-bg">
     <mj-include path="../email-2/components/header.mjml" />
     <mj-raw>
       <!-- Main -->
     </mj-raw>
-    <mj-section background-color="#ffffff">
+    <mj-section>
       <mj-column padding="18px 0 5px 0">
         <mj-text css-class="header-title" font-size="56px" color="#004c3f" font-weight="bold">What's New</mj-text>
         <mj-text css-class="header-title" font-size="18px" color="#004c3f" font-weight="normal">July 18, 2028</mj-text>
@@ -60,7 +60,7 @@
     <mj-raw>
       <!-- Content 1 -->
     </mj-raw>
-    <mj-section background-color="#ffffff">
+    <mj-section >
       <mj-column>
         <mj-image href="https://shopify.com/blog" padding-bottom="20px" src="../email-2/images/image.jpg" />
       </mj-column>
@@ -75,7 +75,7 @@
     <mj-raw>
       <!-- Content 2 -->
     </mj-raw>
-    <mj-section padding="40px 40px 20px 40px" background-color="#ffffff">
+    <mj-section padding="40px 40px 20px 40px">
       <mj-column>
         <mj-text css-class="header-title" font-size="20px" line-height="20px" color="#212b35" font-weight="bold" align="center">Running a business like yours isn't a desk job.
           Keep it from becoming one with the Shopify app.</mj-text>
@@ -120,6 +120,6 @@
     </mj-section>
     </mj-wrapper>
     <mj-include path="../email-2/components/footer.mjml" />
-    </mj-wrapper>
+    </mj-section>
   </mj-body>
 </mjml>
