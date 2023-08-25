@@ -59,24 +59,29 @@
       </mj-column>
     </mj-section>
     <mj-include path="../email-2/components/spacer.mjml" />
-    
+
     <mj-raw>
       <!-- Content 2 -->
     </mj-raw>
     <mj-section padding="40px 40px 20px 40px" background-color="#ffffff">
       <mj-column>
         <mj-text css-class="header-title" font-size="20px" line-height="20px" color="#212b35" font-weight="bold" align="center">Running a business like yours isn't a desk job.
-        Keep it from becoming one with the Shopify app.</mj-text>
+          Keep it from becoming one with the Shopify app.</mj-text>
       </mj-column>
     </mj-section>
     <mj-section padding="0" background-color="#ffffff">
-      <mj-column padding="0">
-        <mj-image padding="0 5px" align="right" href="https://apple.com" src="../email-2/images/appstore.png" width="150px" height="43px" />
-      </mj-column>
-      <mj-column padding="0">
-        <mj-image padding="0 5px" align="left" href="https://apple.com" src="../email-2/images/android.png" width="150px" height="43px" />
-      </mj-column>
+      <mj-group>
+        <mj-column padding="0">
+          <mj-image padding="0 5px" align="right" href="https://apple.com" src="../email-2/images/appstore.png" width="150px" height="43px" />
+        </mj-column>
+        <mj-column padding="0">
+          <mj-image padding="0 5px" align="left" href="https://apple.com" src="../email-2/images/android.png" width="150px" height="43px" />
+        </mj-column>
+      </mj-group>
     </mj-section>
+    <mj-wrapper css-class="footer" padding="0 40px">
+
+    </mj-wrapper>
     <mj-include path="../email-2/components/footer.mjml" />
   </mj-body>
 </mjml>
