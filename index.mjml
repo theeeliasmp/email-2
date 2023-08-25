@@ -79,8 +79,33 @@
         </mj-column>
       </mj-group>
     </mj-section>
-    <mj-wrapper css-class="footer" padding="0 40px">
-
+    <mj-wrapper css-class="footer" background-color="#ffffff" padding="0 40px">
+        <mj-section padding="0" background-color="#ffffff">
+      <mj-group>
+        <mj-column padding="0">
+          <mj-image padding="0 5px" href="https://facebook.com/shopify" src="../email-2/images/fb.png" width="27px" height="27px" alt="Facebook" />
+        </mj-column>
+        <mj-column padding="0">
+          <mj-image padding="0 5px" href="https://twitter.com/shopify" src="../email-2/images/tw.png" width="27px" height="27px" alt="Twitter" />
+        </mj-column>
+        <mj-column padding="0">
+          <mj-image padding="0 5px" href="https://instagram.com/shopify" src="../email-2/images/insta.png" width="27px" height="27px" alt="Instagram" />
+        </mj-column>
+        <mj-column padding="0">
+          <mj-image padding="0 5px" href="https://snapchat.com/shopify" src="../email-2/images/snap.png" width="27px" height="27px" alt="Snapchat" />
+        </mj-column>
+        <mj-column padding="0">
+          <mj-image padding="0 5px" href="https://linkedin.com/shopify" src="../email-2/images/in.png" width="27px" height="27px" alt="LinkedIn" />
+        </mj-column>
+        <mj-column padding="0">
+          <mj-image padding="0 5px" href="https://pinterest.com/shopify" src="../email-2/images/pin.png" width="27px" height="27px" alt="Pinterest" />
+        </mj-column>
+        <mj-column padding="0">
+          <mj-image padding="0 5px" href="https://youtube.com/shopify" src="../email-2/images/yt.png" width="27px" height="27px" alt="Youtube" />
+        </mj-column>
+        
+      </mj-group>
+    </mj-section>
     </mj-wrapper>
     <mj-include path="../email-2/components/footer.mjml" />
   </mj-body>
