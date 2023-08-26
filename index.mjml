@@ -8,6 +8,13 @@
       .hover-underline:hover {
         text-decoration: underline;
       }
+      .footer-links{
+        color: #000;
+        text-decoration: none;
+      }
+      .footer-links:hover{
+        color: #004c3f;
+      }
     </mj-style>
     <mj-style inline="inline">
     .content-bg {
@@ -33,12 +40,13 @@
       }
       .social-icons{
         max-width: 280px;
-        padding: 40px 0 60px 0;
+        padding: 0px 0 40px 0;
       }
       .footer{
         background-image: url("../email-2/images/bg-colors.png");
         background-size: 600px;
       }
+      
     </mj-style>
   </mj-head>
   <mj-body background-color="#f2f2f2">
@@ -75,13 +83,13 @@
     <mj-raw>
       <!-- Content 2 -->
     </mj-raw>
-    <mj-section padding="40px 40px 20px 40px">
+    <mj-section padding="25px 40px 15px 40px">
       <mj-column>
         <mj-text css-class="header-title" font-size="20px" line-height="20px" color="#212b35" font-weight="bold" align="center">Running a business like yours isn't a desk job.
           Keep it from becoming one with the Shopify app.</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section padding="0" background-color="#ffffff">
+    <mj-section padding="0 0 55px" background-color="#ffffff">
       <mj-group>
         <mj-column padding="0">
           <mj-image padding="0 5px" align="right" href="https://apple.com" src="../email-2/images/appstore.png" width="150px" height="43px" />
@@ -91,41 +99,7 @@
         </mj-column>
       </mj-group>
     </mj-section>
-    <mj-wrapper css-class="footer" padding="0 40px">
-        <mj-section padding="0">
-      <mj-group css-class="social-icons">
-        <mj-column padding="0">
-          <mj-image padding="0 5px" href="https://facebook.com/shopify" src="../email-2/images/fb.png" width="27px" height="27px" alt="Facebook" />
-        </mj-column>
-        <mj-column padding="0">
-          <mj-image padding="0 5px" href="https://twitter.com/shopify" src="../email-2/images/tw.png" width="27px" height="27px" alt="Twitter" />
-        </mj-column>
-        <mj-column padding="0">
-          <mj-image padding="0 5px" href="https://instagram.com/shopify" src="../email-2/images/insta.png" width="27px" height="27px" alt="Instagram" />
-        </mj-column>
-        <mj-column padding="0">
-          <mj-image padding="0 5px" href="https://snapchat.com/shopify" src="../email-2/images/snap.png" width="27px" height="27px" alt="Snapchat" />
-        </mj-column>
-        <mj-column padding="0">
-          <mj-image padding="0 5px" href="https://linkedin.com/shopify" src="../email-2/images/in.png" width="27px" height="27px" alt="LinkedIn" />
-        </mj-column>
-        <mj-column padding="0">
-          <mj-image padding="0 5px" href="https://pinterest.com/shopify" src="../email-2/images/pin.png" width="27px" height="27px" alt="Pinterest" />
-        </mj-column>
-        <mj-column padding="0">
-          <mj-image padding="0 5px" href="https://youtube.com/shopify" src="../email-2/images/yt.png" width="27px" height="27px" alt="Youtube" />
-        </mj-column>
-        
-      </mj-group>
-    </mj-section>
-    <mj-section padding="20px 0 0 0">
-        <mj-column padding="0">
-            <mj-text align="center" font-size="10px">
-            Shopify, 151 O'Conor Street, Ground floor, Ottawa ON, K2P 2L8
-            </mj-text>
-        </mj-column>
-    </mj-section>
-    </mj-wrapper>
+    
     <mj-include path="../email-2/components/footer.mjml" />
     </mj-section>
   </mj-body>

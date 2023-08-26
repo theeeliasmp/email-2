@@ -1,8 +1,45 @@
 <mj-raw>
         <!-- Footer -->
         </mj-raw>
-        <mj-section css-class="header section-padding">
-            <mj-column>
-                <mj-text>Footer</mj-text>
-            </mj-column>
-        </mj-section>
+        <mj-wrapper css-class="footer" padding="0 0px">
+        <mj-section padding="0px 0 0px 0">
+      <mj-group css-class="social-icons">
+        <mj-column padding="0">
+          <mj-image padding="0 5px" href="https://facebook.com/shopify" src="../email-2/images/fb.png" width="27px" height="27px" alt="Facebook" />
+        </mj-column>
+        <mj-column padding="0">
+          <mj-image padding="0 5px" href="https://twitter.com/shopify" src="../email-2/images/tw.png" width="27px" height="27px" alt="Twitter" />
+        </mj-column>
+        <mj-column padding="0">
+          <mj-image padding="0 5px" href="https://instagram.com/shopify" src="../email-2/images/insta.png" width="27px" height="27px" alt="Instagram" />
+        </mj-column>
+        <mj-column padding="0">
+          <mj-image padding="0 5px" href="https://snapchat.com/shopify" src="../email-2/images/snap.png" width="27px" height="27px" alt="Snapchat" />
+        </mj-column>
+        <mj-column padding="0">
+          <mj-image padding="0 5px" href="https://linkedin.com/shopify" src="../email-2/images/in.png" width="27px" height="27px" alt="LinkedIn" />
+        </mj-column>
+        <mj-column padding="0">
+          <mj-image padding="0 5px" href="https://pinterest.com/shopify" src="../email-2/images/pin.png" width="27px" height="27px" alt="Pinterest" />
+        </mj-column>
+        <mj-column padding="0">
+          <mj-image padding="0 5px" href="https://youtube.com/shopify" src="../email-2/images/yt.png" width="27px" height="27px" alt="Youtube" />
+        </mj-column>
+        
+      </mj-group>
+    </mj-section>
+    <mj-section padding="0px 0 0 0">
+        <mj-column padding="0">
+            <mj-text align="center" font-size="10px">
+            Shopify, 151 O'Conor Street, Ground floor, Ottawa ON, K2P 2L8
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section padding="0 0 60px ">
+        <mj-column padding="0">
+            <mj-text align="center" font-size="10px">
+            <a href="#" class="footer-links">Unsubscribe</a> | <a href="#" class="footer-links">Manage Your Email Preferences
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    </mj-wrapper>
