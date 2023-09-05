@@ -59,9 +59,18 @@
     <mj-section>
       <mj-column padding="18px 0 5px 0">
         <mj-text css-class="header-title" font-size="56px" color="#004c3f" font-weight="bold">What's New</mj-text>
-        <mj-text css-class="header-title" font-size="18px" color="#004c3f" font-weight="normal">July 18, 2028</mj-text>
+        <mj-text css-class="header-title" padding-bottom="0" font-size="18px" color="#004c3f" font-weight="normal">July 18, 2028</mj-text>
+
       </mj-column>
     </mj-section>
+    <mj-raw>
+            <!-- Spacer -->
+        </mj-raw>
+        <mj-section background-color="#ffffff">
+            <mj-column>
+                <mj-image padding="0px" src="../email-2/images/1-line.png">
+            </mj-column>
+        </mj-section>
 
 
     <mj-raw>
@@ -70,8 +79,8 @@
     <mj-section >
 
       <mj-column>
-        <mj-text font-size="24px" color="#004c3f" font-weight="bold"><a href="https://shopify.com/blog" class="link-style">Find more ways to sell with pre-orders</a></mj-text>
-        <mj-text line-height="20px" font-size="13px" color="#004c3f" font-weight="normal">We've gone and made selling even easier, with pre-orders. Give your customers the ability to pay now, pay a desposit, or pay later, and in the process, increase your sales, forecast demand, and create buzz for your products.</mj-text>
+        <mj-text font-size="24px" color="#004c3f" font-weight="bold"><a href="https://shopify.com/blog" class="link-style">Are You Ready for Take Off? 3 Steps To Boost Your Retail Storefront</a></mj-text>
+        <mj-text line-height="20px" font-size="13px" color="#004c3f" font-weight="normal">Take your business into light speed with these 3 steps, all using the data and metrics you already know about your customer base! By following the data, doing more of what works, and planning ahead, your business can reach the stars.</mj-text>
         <mj-text css-class="hover-underline" line-height="20px" font-size="13px" font-weight="bold"><a href="https://shopify.com/blog" class="bright-green">Learn More</a></mj-text>
       </mj-column>
       <mj-column>
@@ -90,8 +99,8 @@
         <mj-image href="https://shopify.com/blog" padding-bottom="20px" src="../email-2/images/blogpost_2.png" />
       </mj-column>
       <mj-column>
-        <mj-text font-size="24px" color="#004c3f" font-weight="bold"><a href="https://shopify.com/blog" class="link-style">Find more ways to sell with pre-orders</a></mj-text>
-        <mj-text line-height="20px" font-size="13px" color="#004c3f" font-weight="normal">We've gone and made selling even easier, with pre-orders. Give your customers the ability to pay now, pay a desposit, or pay later, and in the process, increase your sales, forecast demand, and create buzz for your products.</mj-text>
+        <mj-text font-size="24px" color="#004c3f" font-weight="bold"><a href="https://shopify.com/blog" class="link-style">How to Reach the Right Customers at the Right Time</a></mj-text>
+        <mj-text line-height="20px" font-size="13px" color="#004c3f" font-weight="normal">Segmentation is the practice of tailoring audience subsets with marketing that gets your message in front of the right eyes. This tailoring can be where you send a message, how often, and what exactly you are marketing and when. Qualified eyes turn into qualified buys!</mj-text>
         <mj-text css-class="hover-underline" line-height="20px" font-size="13px" font-weight="bold"><a href="https://shopify.com/blog" class="bright-green">Learn More</a></mj-text>
       </mj-column>
     </mj-section>
