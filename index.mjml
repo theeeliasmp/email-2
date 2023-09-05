@@ -22,6 +22,7 @@
     }
       .header {
         background-color: #004c3f;
+        background-image: url("../email-2/images/header_bg.png");
       }
 
       .section-padding {
@@ -62,15 +63,31 @@
       </mj-column>
     </mj-section>
 
-    <mj-include path="../email-2/components/spacer.mjml" />
-
 
     <mj-raw>
       <!-- Content 1 -->
     </mj-raw>
     <mj-section >
+
       <mj-column>
-        <mj-image href="https://shopify.com/blog" padding-bottom="20px" src="../email-2/images/image.jpg" />
+        <mj-text font-size="24px" color="#004c3f" font-weight="bold"><a href="https://shopify.com/blog" class="link-style">Find more ways to sell with pre-orders</a></mj-text>
+        <mj-text line-height="20px" font-size="13px" color="#004c3f" font-weight="normal">We've gone and made selling even easier, with pre-orders. Give your customers the ability to pay now, pay a desposit, or pay later, and in the process, increase your sales, forecast demand, and create buzz for your products.</mj-text>
+        <mj-text css-class="hover-underline" line-height="20px" font-size="13px" font-weight="bold"><a href="https://shopify.com/blog" class="bright-green">Learn More</a></mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image href="https://shopify.com/blog" padding-bottom="20px" src="../email-2/images/blogpost_1.png" />
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="../email-2/components/spacer.mjml" />
+
+
+    <mj-raw>
+      <!-- Content 2 -->
+    </mj-raw>
+    <mj-section >
+      <mj-column>
+        <mj-image href="https://shopify.com/blog" padding-bottom="20px" src="../email-2/images/blogpost_2.png" />
       </mj-column>
       <mj-column>
         <mj-text font-size="24px" color="#004c3f" font-weight="bold"><a href="https://shopify.com/blog" class="link-style">Find more ways to sell with pre-orders</a></mj-text>
@@ -85,8 +102,8 @@
     </mj-raw>
     <mj-section padding="25px 40px 15px 40px">
       <mj-column>
-        <mj-text css-class="header-title" font-size="20px" line-height="20px" color="#212b35" font-weight="bold" align="center">Running a business like yours isn't a desk job.
-          Keep it from becoming one with the Shopify app.</mj-text>
+        <mj-text css-class="header-title" font-size="20px" line-height="20px" color="#212b35" font-weight="bold" align="center">Running a business like yours is a marathon.
+          Keep up the pace with the Shopify app.</mj-text>
       </mj-column>
     </mj-section>
     <mj-section padding="0 0 55px" background-color="#ffffff">
